@@ -1,0 +1,53 @@
+
+.header{
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    //clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
+    z-index: -1;
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer !important;
+    .logo{
+        margin: 5px;
+        padding: 20px;
+        .nav-title{
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    
+    }
+}
+
+}
+
+footer{
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: -1;
+
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 30vh;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        
+    }
+}
