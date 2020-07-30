@@ -8,7 +8,6 @@ html body {
 }
 
 body {
-    min-width: 700px;
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -23,6 +22,10 @@ body {
     }
     footer{
         background: $background
+    }
+    figure{
+        margin: 0;
+        padding: 0;
     }
     
 }

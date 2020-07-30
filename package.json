@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "gh-pages -d dist/portfolio"
+    "deploy": "gh-pages -d docs"
   },
   "private": true,
   "homepage": "https://briankariuki.github.com/portfolio",
